@@ -26,12 +26,12 @@ public class BaseSetupUIAutomator {
 
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"android");
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME,"emulator-5554");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Nexus 5 API 30");
         cap.setCapability("automationName", "uiautomator");
         cap.setCapability("autoGrantPermissions", "true");
         cap.setCapability("noReset", true);
         cap.setCapability("fullReset", false);
-        cap.setCapability(MobileCapabilityType.APP, "/Users/nicolas.duarte/Downloads/verivox_3.2.3.apk");
+        cap.setCapability(MobileCapabilityType.APP, "/Users/duarten/Downloads/app-release.apk");
 
         String serverUrl = "http://127.0.0.1:4723/wd/hub";
 
